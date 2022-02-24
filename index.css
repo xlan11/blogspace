@@ -1,0 +1,65 @@
+/**
+ Challenge:
+
+ Style it up!
+ 
+ * Add a short (~30px height) fixed navbar at the top with the text "BlogSpace". Remember to pad the top of your content so it doesn't get hidden behind the navbar.
+ * Add a font from Google Fonts.
+ * Any other styling you want to make it look nice!
+ 
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap');
+ body{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+ }
+ nav{
+     height:50px;
+     width:100%;
+     position:fixed;
+     background-color:coral;
+     color:white;  
+     padding: 0px 0px 0px 20px;
+     display:flex;
+     align-items: center;
+
+
+ }
+ #posts{
+     padding-top:50px;
+     padding-left: 20px;
+     background-color:white;
+     padding-bottom:20px;
+ }
+
+ #posts > h3 {
+     color:coral;
+     font-weight: 600;
+ }
+
+ #posts > p{
+     color:black;
+     font-weight: 100;
+ }
+
+ #add-post{
+     background-color:white;
+     padding-top:50px 20px 20px 20px;
+     background-color:white;
+ }
+
+  input#post-title, textarea#post-body {
+    margin-bottom: 10px;
+  }
+  form{
+      padding: 10px;
+      display:grid;
+      background-color:coral;
+  }
+  form > button {
+      background-color:darkgray;
+      color:white;
+      padding:10px 20px;
+      border: 1px solid coral;
+      font-size:16px;
+  }
