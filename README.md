@@ -1,3 +1,3 @@
 # blogspace
 
-scrimba api module
+from scrimba api module
